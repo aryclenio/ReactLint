@@ -12,7 +12,7 @@
   "exports": "./lib/index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha tests --recursive"
+    "test": "mocha __tests__ --recursive"
   },
   "dependencies": {
     "requireindex": "^1.2.0"
