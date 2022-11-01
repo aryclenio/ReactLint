@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-lint",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "ReactLint is a EsLint plugin to search code smells on React applications",
   "keywords": [
     "eslint",
@@ -10,6 +10,10 @@
   "author": "Aryclenio Barros",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aryclenio/ReactLint.git"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "mocha __tests__ --recursive"
